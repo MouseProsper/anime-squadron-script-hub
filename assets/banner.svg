@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0b1e"/>
+      <stop offset="50%" stop-color="#181234"/>
+      <stop offset="100%" stop-color="#1f0f3a"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8a5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8a5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5ca8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff5ca8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <circle cx="200" cy="80" r="180" fill="url(#glow1)"/>
+  <circle cx="1000" cy="300" r="220" fill="url(#glow2)"/>
+
+  <g opacity="0.18" stroke="#ffffff" fill="none">
+    <circle cx="150" cy="60" r="40"/>
+    <circle cx="1080" cy="70" r="26"/>
+    <circle cx="1120" cy="290" r="55"/>
+    <circle cx="60" cy="300" r="30"/>
+  </g>
+
+  <g opacity="0.15" stroke="#c9a6ff" stroke-width="1.5">
+    <path d="M0,240 L1200,240"/>
+    <path d="M0,250 L1200,250"/>
+  </g>
+
+  <g opacity="0.5">
+    <polygon points="140,40 150,55 135,55" fill="#ffffff" opacity="0.4"/>
+    <polygon points="1050,300 1060,315 1045,315" fill="#ffffff" opacity="0.35"/>
+    <polygon points="90,150 98,163 84,163" fill="#ffffff" opacity="0.3"/>
+    <polygon points="1130,130 1138,143 1124,143" fill="#ffffff" opacity="0.3"/>
+  </g>
+
+  <line x1="300" y1="120" x2="900" y2="120" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" fill="#ffffff" font-weight="bold">
+    <tspan x="600" dy="0">Anime Squadron Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Script hub for Anime Squadron players — reads game data, processes settings,</tspan>
+    <tspan x="600" dy="30">exports configs.</tspan>
+  </text>
+
+  <line x1="300" y1="275" x2="900" y2="275" stroke="url(#lineGrad)" stroke-width="1"/>
+</svg>
